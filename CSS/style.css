@@ -3,12 +3,14 @@ html{
     padding: 0;
 
 }
+/* <--the body start here --> */
 body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #747474;
     background-color: #fff;
     margin-left: auto;
 }
+/* <--the header start here --> */
 .header-logo{
     display: flex;
     justify-content: space-around;
@@ -52,6 +54,10 @@ header img{
     color: #00b39b;
     
 }
+/* <--the header end here --> */
+/* <--the main start here --> */
+
+/* <--the Ist section start here --> */
 .container1{
     flex-wrap: wrap;
 }
@@ -87,6 +93,8 @@ p{
 .p-sec1{
     padding-right: 20px;   
 }
+/* <--the Ist section end here --> */
+/* <--the Second section start here --> */
 .container{
     margin: 50px 0;
 }
@@ -183,6 +191,8 @@ p{
     width: 95px;
     margin: 0 20px 30px 0;
   }
+  /* <--the second section end here --> */
+  /* <--the third section start here --> */
   .forsec{
     justify-content: center;
     align-items: center;
@@ -251,6 +261,8 @@ p{
     color: #747474;
     margin: 0 0 10px;
   }
+  /* <--the third section end here --> */
+  /* <--the forth section start here --> */
   .r2 h3{
     font-size: 30px;
     color: #00b39b;
@@ -270,19 +282,29 @@ p{
     color: #747474;
     font-size: 14px;
  }
+ /* <--the forth section end here --> */
+ /* <--the firth section start here --> */
  .container {
-    width: 80%;
     margin: 120px auto;
     justify-content: center;
-}
-.col-12{
     border-radius: 4px;
 }
-.col-12:hover{
+.col1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cl{
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.cl:hover{
+   box-shadow:5px 3px 30px 1px #a3a2a2;
 }
 .container img {
    width: 100%;
-   margin-top: 10px;
    margin-bottom: 20px;
 }
 .container div{
@@ -308,6 +330,8 @@ p{
     font-family: 'Roboto', Arial, sans-serif;
     border: none;
 }
+/* <--the firth section end here --> */
+/* <--the last section start here --> */
 .section7 h1 {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
@@ -330,11 +354,17 @@ p{
     margin-top: 20px;
     margin-bottom: 50px;
 }
+/* <-- last section end here --> */
+
+/* <-- the main end here --> */
+/* <-- the footer start here --> */
 .end{
     text-align: center;
     font-family: 'Roboto', Arial, sans-serif;
     color: #ababab;
     font-size: 12px;
+    width: 90%;
+    margin: 0 auto;
 }
 .end a{
     text-decoration: none;
@@ -344,4 +374,6 @@ p{
     padding-top: 20px;
     margin-bottom: 0;
 }
+/* <-- the footer end here --> */
+/* <-- the body end here--> */
 
